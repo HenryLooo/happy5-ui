@@ -11,3 +11,166 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  width: 1440px;
+  height: 1080px;
+}
+
+.card{
+  display: inline-block;
+  border: 5px;
+  
+}
+
+.side-bar{
+  background-color: #1A0931;
+  margin: 0;
+  padding: 0;
+  width: 68px;
+  height: 1027px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+div.content {
+  margin-left: 118px;
+  margin-right: 118px;
+  padding: 1px ;
+  height: 1000px;
+  display: block;
+}
+h1{
+  font-family: "Open Sans";
+  font-size: 20px;
+}
+h1.title {
+  margin-top: 20px;
+  margin-bottom: 24px;
+  text-align: left;
+  height: 24px;
+  width: 174px;
+}
+
+.logo{
+  width: 28px;
+  height: 28px;
+  margin:20px;
+}
+
+/* cards */
+.cardSection{
+  display: flex;
+}
+.card{
+  background-color: #FEFEFF;
+  width: 306px;
+  height: fit-content;
+  margin-right: 16px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #F2F2F4;
+  text-align: left;
+  display: grid;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+
+p1.cardTitle{
+  width: 282px;
+  height: 16px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  color: #5D6372;
+  padding-top: 12px;
+}
+
+p1.cardMonth{
+  width: 282px;
+  height: 16px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  color: #5D6372;
+  padding-top: 4px;
+  padding-bottom: 16px;
+}
+
+.taskCard{
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #E4E4E8;
+  background-color: white;
+  width: 282px;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom:4px;
+  margin-bottom:12px;
+}
+
+p1.taskText{
+  font-weight: 600;
+  color: #2F3136;
+}
+
+.weight{
+  margin-top: 32px;
+  display: flex;
+  
+}
+
+p1.textWeight{
+  width: 282px;
+  height: 16px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  color: #5D6372;
+  padding-left:11px;
+  padding-top: 10px;
+}
+
+.dots{
+  width: 36px;
+  /* height: 5px; */
+  margin-right: 12px;
+}
+
+.createSection{
+  padding-bottom:16px;
+  display: flex;
+}
+
+.createLogo{
+  width: 8.54px;
+  padding-left: 7.46px;
+}
+
+p1.createText{
+  padding-left: 11.73px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+p1.noTask{
+  color:#B7BDC9;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 16px;
+  padding-top:8px;
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .side-bar a {
+    text-align: center;
+    float: none;
+  }
+}
